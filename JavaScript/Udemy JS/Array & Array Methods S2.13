@@ -1,0 +1,11 @@
+const number = [43,54,676,654,2,4,5,32];
+const number2 = new Array(22,34,6,51,14,54);
+
+const fruit = ['Apple','Banana','Orange','Grape'];
+const mixed = [22,'coco',null, true,undefined,{a:1,b:4},new Date()];
+
+let val;
+
+//Reverse
+
+console.log(number.reverse())

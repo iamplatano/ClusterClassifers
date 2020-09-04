@@ -1,0 +1,19 @@
+const person = {
+    firstName:'Ulises',
+    lastName: 'Almonte',
+    age: 20,
+    email:'ulisesalmonte@gmail.com',
+    hobbies:['League','code'],
+    address:{
+        city: 'Springfield',
+        state: 'VA'
+    },
+    getBirthYear: function(){
+        return 2020-this.age;
+    }
+}
+
+let val;
+val = person;
+
+console.log(val.getBirthYear);
